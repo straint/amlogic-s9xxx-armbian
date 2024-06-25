@@ -12,13 +12,14 @@ on:
       set_release:
         description: "Select OS Release."
         required: false
-        default: "bookworm"
+        default: "sid"
         type: choice
         options:
           - jammy
           - noble
           - bullseye
           - bookworm
+          - sid
       armbian_board:
         description: "Select device board."
         required: false
